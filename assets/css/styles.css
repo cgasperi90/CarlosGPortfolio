@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif !important;
-    color: white !important;
+    color: #F4FFF8 !important;
 }
 .fa-ghost {
     color: white;
@@ -8,4 +8,19 @@ body {
 }
 .jumbotron {
     text-align: center;
+    background-color: #39304A !important;
+}
+.navbar {
+    background-color: #39304A !important;
+    margin-bottom: 75px;
+}
+.my-4 {
+    background-color: #F4FFF8;
+}
+.btn {
+    background-color: #FF5964 !important;
+    border: #FF5964 !important;
+}
+#project-page {
+    background-color: #39304A;
 }

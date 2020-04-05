@@ -8,8 +8,9 @@
         <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/styles.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
         <!--jQuery-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
         <!--Font Awesome-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
         <!--Google fonts-->
@@ -17,22 +18,28 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-light bg-dark">
+        <nav class="navbar navbar-light animated bounceInLeft">
             <a class="navbar-brand" href="#">
                 <i class="fas fa-ghost"></i>
             </a>
-          </nav><br>
+        </nav><br>
+        
+        <div id="second-page" class="container">
 
-          <div class="container">
-            <div class="jumbotron bg-dark">
+        </div>
+
+          <div id="front-page" class="container">
+            <div class="jumbotron animated bounceInRight">
                 <h1 class="display-4">Hello, world!</h1>
                 <p class="lead">Simple showcase of my Projects!</p>
                 <hr class="my-4">
-                <h2>Carlos Gasperi</h2>
-              </div>
+                <a id="enter" class="btn btn-primary btn-lg" href="#" role="button">Enter!</a>
+            </div>
 
 
           </div>
+
+          
 
         <!--Javascript-->
         <script src="./assets/javascript/app.js"></script>
