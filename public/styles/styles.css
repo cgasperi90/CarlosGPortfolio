@@ -1,7 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif !important;
-    color: rgb(214, 214, 214) !important;
-    background-image: url("/images/314799.jpg");
+    color: rgb(243, 243, 246) !important;
 }
 .jumbotron {
     text-align: center;
@@ -12,9 +11,16 @@ body {
     background-color: rgb(51, 51, 51) !important;
     margin-bottom: 75px;
     box-shadow: 0 10px 6px -6px rgb(39, 39, 39);
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .nav-link {
     color: rgb(214, 214, 214) !important;
+}
+.nav-link:hover {
+    color: rgb(0, 116, 249) !important;
+    scale: 1.03px !important;
+    transform: scale(1.1);
 }
 .navbar-brand {
     color: rgb(214, 214, 214) !important;
@@ -27,17 +33,16 @@ body {
     padding: 20px;
 }
 img {
-    height: 200px !important;
+    height: 275px !important;
     width: auto !important;
     margin: 10px;
+    border-radius: 5px;
 }
 h3 {
     color: #F4FFF8;
 }
 .btn {
     margin: 5px;
-    background-color: rgb(235, 69, 72) !important;
-    border: rgb(235, 69, 72) !important;
 }
 .btn:hover {
     scale: 1.03px !important;
