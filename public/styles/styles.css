@@ -68,3 +68,9 @@ h3 {
     background-color: rgb(214, 214, 214)!important;
     margin-bottom: 1rem;
 }
+.contact {
+    background-color: white !important;
+}
+.contact-header {
+    color: black !important;
+}
