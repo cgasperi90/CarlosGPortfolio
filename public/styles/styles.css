@@ -75,3 +75,6 @@ h3 {
 .contact-header {
     color: black !important;
 }
+#badge {
+    background-color: white;
+}
